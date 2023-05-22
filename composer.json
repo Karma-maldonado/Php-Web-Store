@@ -1,0 +1,17 @@
+{
+    "name": "karma/webstore",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Karma\\Webstore\\": "src/",
+            "core\\" : "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karma",
+            "email": "joaopedromaldonado03@gmail.com"
+        }
+    ],
+    "require": {}
+}
