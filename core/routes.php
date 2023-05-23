@@ -2,7 +2,6 @@
 #collection routes
 $routes = [
     'index' => 'main@index',
-    'store' => 'main@store'
 ];
 #action for failure
 $action = 'index';

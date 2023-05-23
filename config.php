@@ -10,3 +10,4 @@ define('MYSQL_DATABASE', 'mercadofenix');
 define('MYSQL_USER', 'root');
 define('MYSQL_PASS', '');
 define('MYSQL_CHARSET', 'utf8mb4');
+

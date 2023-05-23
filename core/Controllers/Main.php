@@ -2,15 +2,21 @@
 
 namespace core\controllers;
 
+use core\classes\SystemFunction;
+
 class Main
 {
     public function index()
     {
-        echo 'index';
-    }
 
-    public function store()
-    {
-        echo 'store';
+        $data = [
+            'Title' => 'Title my page',
+        ];
+
+        SystemFunction::Layouts([
+            'templates/header',
+            'index',
+            'templates/footer',
+        ], $data);
     }
 }
